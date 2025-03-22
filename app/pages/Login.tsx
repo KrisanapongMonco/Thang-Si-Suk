@@ -22,10 +22,10 @@ const Login = () => {
     }
 
     // In a real app, you would call an API to handle login
-    Alert.alert("Success", "Login successful", [
+    Alert.alert("เข้าสู่ระบบสำเร็จ", "ยินดีต้อนรับกลับมา", [
       {
-        text: "OK",
-        onPress: () => router.push("/(tabs)"),
+        text: "ตกลง",
+        onPress: () => router.replace("/(tabs)"),
       },
     ]);
   };

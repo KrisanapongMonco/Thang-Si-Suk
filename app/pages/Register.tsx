@@ -37,7 +37,7 @@ const Register = () => {
     Alert.alert("ลงทะเบียนสำเร็จ", "บัญชีของคุณถูกสร้างเรียบร้อยแล้ว", [
       {
         text: "เข้าสู่ระบบ",
-        onPress: () => router.push("/pages/Login"),
+        onPress: () => router.replace("/pages/Login"),
       },
     ]);
   };
